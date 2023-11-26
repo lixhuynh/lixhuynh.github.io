@@ -1,9 +1,13 @@
 html {
     height: 100%;
-    width: 100%;
+    width: 80%;
+    padding: 0% 10%;
+    margin-top: 20px;
     background-color: #E6E8E6;
     font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
     color: #1D1128;
+    align-items: center;
   }
   
   h1 {
@@ -19,11 +23,15 @@ html {
     color: #539987;
   }
   
-  p, li {
-    font-size: 14px;
+  p {
+    text-align: justify;
   }
   
   a {
     font-weight: 600px;
     color: #EE4266;
+  }
+  
+  hr {
+    width: 75%;
   }
